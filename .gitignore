@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated application data
+history.json
+history_images/
+outputs/
+
+# Model checkpoints
+best_model.pth
+*.pth
+*.pt
+
+# Private Streamlit settings
+.streamlit/secrets.toml
+
+# Editors
+.vscode/
+.idea/
+
+# Windows and macOS
+Thumbs.db
+.DS_Store
